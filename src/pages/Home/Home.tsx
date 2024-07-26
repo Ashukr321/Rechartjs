@@ -19,6 +19,13 @@ const Home: React.FC = () => {
         >
           BarChart
         </Link>
+
+        <Link
+          to={"/chart3"}
+          className="text-white p-4 border px-10 text-xl hover:bg-white hover:text-blue-600"
+        >
+          LineChart
+        </Link>
       </div>
     </div>
   );
