@@ -4,7 +4,7 @@ function Chart1() {
     <div>
       <h1>chart1</h1>
     </div>
-  )
+  );
 }
 
-export default Chart1
+export default Chart1;
