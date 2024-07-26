@@ -26,6 +26,13 @@ const Home: React.FC = () => {
         >
           LineChart
         </Link>
+
+        <Link
+          to={"/chart4"}
+          className="text-white p-4 border px-10 text-xl hover:bg-white hover:text-blue-600"
+        >
+          Paichart
+        </Link>
       </div>
     </div>
   );
