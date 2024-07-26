@@ -10,7 +10,14 @@ const Home: React.FC = () => {
           to={"/chart1"}
           className="text-white p-4 border px-10 text-xl hover:bg-white hover:text-blue-600"
         >
-          chart1
+          AreaChart
+        </Link>
+
+        <Link
+          to={"/chart2"}
+          className="text-white p-4 border px-10 text-xl hover:bg-white hover:text-blue-600"
+        >
+          BarChart
         </Link>
       </div>
     </div>
