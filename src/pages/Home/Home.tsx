@@ -47,6 +47,13 @@ const Home: React.FC = () => {
         >
           RadialBarChart
         </Link>
+
+        <Link
+          to={"/chart7"}
+          className="text-white p-4 border px-10 text-xl hover:bg-white hover:text-blue-600"
+        >
+          ScatterChart
+        </Link>
       </div>
     </div>
   );

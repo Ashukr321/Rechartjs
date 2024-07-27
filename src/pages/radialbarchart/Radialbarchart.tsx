@@ -1,5 +1,5 @@
 import React from 'react'
-import { Legend, RadialBar, RadialBarChart, ResponsiveContainer, Tooltip } from 'recharts'
+import { CartesianGrid, Legend, RadialBar, RadialBarChart, ResponsiveContainer, Tooltip } from 'recharts'
 
 const Radialbarchart = () => {
   const data = [
@@ -59,6 +59,7 @@ const Radialbarchart = () => {
            startAngle={180}
            endAngle={0}
           >
+            <CartesianGrid ></CartesianGrid>
             <RadialBar minAngle={15} label={{ fill: '#666', position: 'insideStart' }} background clockWise={true} dataKey='uv' />
             <Legend iconSize={20}  />
             <Tooltip></Tooltip>
