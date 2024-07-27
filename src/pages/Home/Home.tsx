@@ -34,12 +34,18 @@ const Home: React.FC = () => {
           Paichart
         </Link>
 
-        
         <Link
           to={"/chart5"}
           className="text-white p-4 border px-10 text-xl hover:bg-white hover:text-blue-600"
         >
           RadarChart
+        </Link>
+
+        <Link
+          to={"/chart6"}
+          className="text-white p-4 border px-10 text-xl hover:bg-white hover:text-blue-600"
+        >
+          RadialBarChart
         </Link>
       </div>
     </div>

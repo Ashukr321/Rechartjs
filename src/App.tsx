@@ -5,6 +5,7 @@ import Barcharts from "./pages/barchart/Barcharts";
 import Linechart from "./pages/linechart/Linechart";
 import Paichart from "./pages/paichart/Paichart";
 import Radarchart from "./pages/radarchart/Radarchart";
+import Radialbarchart from "./pages/radialbarchart/Radialbarchart";
 const App = () => {
   return (
     <main>
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/chart3" element={<Linechart />} />
         <Route path="/chart4" element={<Paichart />} />
         <Route path="/chart5" element={<Radarchart />} />
+        <Route path="/chart6" element={<Radialbarchart />} />
       </Routes>
     </main>
   );

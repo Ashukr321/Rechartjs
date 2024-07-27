@@ -49,7 +49,7 @@ const RadarChartComponent = () => {
     },
   ];
   return (
-    <div className="bg-bg_chart-100 p-4 sm:p-8 h-screen flex flex-col justify-start">
+    <div className="bg-bg_chart-100  p-4 sm:p-8 h-screen flex flex-col justify-start">
       <h1 className="text-center text-3xl tracking-wider mb-5">Radar Chart</h1>
       <div className="w-full sm:w-1/2 mx-auto bg-white p-4">
         <ResponsiveContainer width="100%" height={350}>
